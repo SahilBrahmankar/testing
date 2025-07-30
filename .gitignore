@@ -1,0 +1,21 @@
+# Ignore system/user folders
+AppData/
+.vscode/
+node_modules/
+*.log
+*.exe
+*.dll
+
+# Ignore Visual Studio Code extensions and configs
+.vscode/extensions/
+*.tsbuildinfo
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
+
+# Ignore everything outside the current project folder
+!*.cpp
+!*.h
+!*.txt
+!README.md
